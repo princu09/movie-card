@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div {
+  display: flex;
+  background: #000;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.main-div .first img {
+  height: 450px;
+
+  border-radius: 5px;
+}
+
+.main-div .second {
+  padding: 40px 30px;
+}
+
+.main-div .second .action-year p {
+  margin-right: 30px;
+}
+.main-div .second .details {
+  width: 400px;
+}
+
+@media (max-width: 767px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
